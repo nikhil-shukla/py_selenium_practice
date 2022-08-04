@@ -11,7 +11,7 @@ path = './screenshots/'
 
 
 def capture_snap(d, p):
-    filename = "snap_" + time.asctime().replace(':', '_') + ".jpg"
+    filename = "snap_" + time.asctime().replace(':', '_') + ".png"
     d.save_screenshot(p + filename)
 
 
