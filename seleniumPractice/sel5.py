@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 
-path = './screenshots/'
+path = '../screenshots/'
 
 
 def capture_snap(d, p):
